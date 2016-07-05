@@ -1,5 +1,5 @@
 using SerialPorts
-include("ArduinoTools.jl")
+using ArduinoTools
 
 h = connectBoard(115200)
 

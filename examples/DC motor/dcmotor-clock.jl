@@ -1,5 +1,5 @@
 using SerialPorts
-include("ArduinoTools.jl")
+using ArduinoTools
 
 ser = connectBoard(115200)
 DCMotorSetup(ser,3,1,9,10)

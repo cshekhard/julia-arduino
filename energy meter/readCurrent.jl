@@ -1,5 +1,5 @@
 using SerialPorts
-include("ArduinoTools.jl")
+using ArduinoTools
 
 function readCurrent()
   str = string(Char(1))*string(Char(3))*string(Char(15))*string(Char(88))*string(Char(0))*string(Char(2))*string(Char(70))*string(Char(204))

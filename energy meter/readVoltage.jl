@@ -1,5 +1,5 @@
 using SerialPorts
-include("ArduinoTools.jl")
+using ArduinoTools
 
 function readVoltage()
   str = string(Char(1))*string(Char(3))*string(Char(15))*string(Char(86))*string(Char(0))*string(Char(2))*string(Char(39))*string(Char(15))
